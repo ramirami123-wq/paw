@@ -12,11 +12,23 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "liquid_aWwXG9": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"margin: 8px 0 12px 0; font-family: system-ui, -apple-system, sans-serif;\">\n  <span style=\"color: #bc1823; font-size: 18px; letter-spacing: 1px;\">★★★★★</span>\n  <span style=\"color: #2C2A28; font-weight: 600; margin-left: 6px; font-size: 15px;\">4.9/5</span>\n  <span style=\"color: #888; margin-left: 4px; font-size: 14px;\">(2,143+ glowing reviews)</span>\n</div>"
+          }
+        },
         "liquid_KKiNTm": {
           "type": "liquid",
           "name": "Hurry",
           "settings": {
             "liquid": "<section class=\"sale-timer\" aria-label=\"Sale countdown timer\">\n  <style>\n    .sale-timer{\n      width:100%;\n      padding:22px 12px;\n      display:flex;\n      justify-content:center;\n      background:#FFFFF;\n      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\n    }\n    .sale-timer__wrap{\n      text-align:center;\n    }\n    .sale-timer__label{\n      font-size:24px;\n      font-weight:500;\n      color:#111;\n      margin:0 0 14px 0;\n      line-height:1.1;\n    }\n\n    .sale-timer__row{\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      gap:10px;\n    }\n\n    .sale-timer__box{\n      width:88px;\n      height:68px;\n      background:#bc1823;\n      color:white;\n      border-radius:6px;\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      font-size:34px;\n      font-weight:700;\n      letter-spacing:1px;\n      font-variant-numeric: tabular-nums;\n    }\n\n    .sale-timer__colon{\n      font-size:32px;\n      font-weight:700;\n      color:#00000;\n      line-height:1;\n      transform: translateY(-1px);\n      user-select:none;\n    }\n\n    @media (max-width:420px){\n      .sale-timer__label{ font-size:20px; }\n      .sale-timer__box{ width:72px; height:58px; font-size:30px; }\n      .sale-timer__colon{ font-size:28px; }\n      .sale-timer__row{ gap:8px; }\n    }\n  </style>\n\n  <div class=\"sale-timer__wrap\">\n    <div class=\"sale-timer__label\">Hurry! Sale ends in</div>\n\n    <div class=\"sale-timer__row\" role=\"timer\" aria-live=\"polite\">\n      <div class=\"sale-timer__box\" id=\"st-hours\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-mins\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-secs\">00</div>\n    </div>\n  </div>\n\n  <script>\n    (function () {\n      const durationHours = 12; // change if needed\n      const endAt = Date.now() + durationHours * 60 * 60 * 1000;\n\n      const h = document.getElementById(\"st-hours\");\n      const m = document.getElementById(\"st-mins\");\n      const s = document.getElementById(\"st-secs\");\n\n      const pad = n => String(n).padStart(2, \"0\");\n\n      function update(){\n        let diff = endAt - Date.now();\n        if(diff < 0) diff = 0;\n\n        const total = Math.floor(diff / 1000);\n        h.textContent = pad(Math.floor(total / 3600));\n        m.textContent = pad(Math.floor((total % 3600) / 60));\n        s.textContent = pad(total % 60);\n\n        if(diff === 0) clearInterval(timer);\n      }\n\n      update();\n      const timer = setInterval(update, 1000);\n    })();\n  </script>\n</section>"
+          }
+        },
+        "liquid_nB3GXJ": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"padding: 14px 18px; background-color: #FFF5F2; border-radius: 12px; margin: 12px 0; line-height: 1.8; font-size: 15px; border-left: 4px solid #C9A89A;\">\n  <div>💧 <strong>Leak-Proof Water Dispenser</strong> — one-handed hydration for dogs & cats anywhere</div>\n  <div>🦴 <strong>Built-In Treat Compartment</strong> — rewards and refreshment in a single carry</div>\n  <div>🐾 <strong>2-in-1 Compact Design</strong> — water bottle and treat holder, one sleek device</div>\n  <div>✈️ <strong>Travel-Ready & Lightweight</strong> — clip it to your bag, hike, walk, or fly</div>\n</div>"
           }
         },
         "liquid_WqHpzt": {
@@ -60,7 +72,9 @@
         }
       },
       "block_order": [
+        "liquid_aWwXG9",
         "liquid_KKiNTm",
+        "liquid_nB3GXJ",
         "liquid_WqHpzt",
         "variant_picker",
         "quantity_selector",
@@ -114,10 +128,10 @@
           "type": "ai_gen_block_adef03d",
           "name": "Free delivery on orders",
           "settings": {
-            "text_1": "Free Delivery  on orders over $40",
-            "text_2": "Free Delivery  on orders over $40",
-            "text_3": "Free Delivery  on orders over $40",
-            "text_4": "Free Delivery  on orders over $40",
+            "text_1": "Delivery all over lebanon",
+            "text_2": "Delivery all over lebanon",
+            "text_3": "Delivery all over lebanon",
+            "text_4": "Delivery all over lebanon",
             "show_icon": false,
             "icon_type": "star",
             "icon_size": 20,
@@ -339,13 +353,13 @@
         "second_button_border_thickness": 2,
         "table_heading_color": "#2f1718",
         "table_heading_active_color": "#ffffff",
-        "table_heading_bg_active_color": "#2a3e79",
+        "table_heading_bg_active_color": "#bc1823",
         "table_column_active_bg_color": "#ffffff",
-        "table_column_active_border_color": "#2a3e79",
+        "table_column_active_border_color": "#bc1823",
         "table_row_border_color": "#d3cabc",
         "table_row_heading_color": "#2f1718",
         "table_row_text_color": "#2f1718",
-        "table_row_active_text_color": "#2a3e79",
+        "table_row_active_text_color": "#bc1823",
         "button_color": "#2a3e79",
         "button_hover_color": "#ffffff",
         "button_bg_color": "",
@@ -359,7 +373,7 @@
         "second_button_border_color": "#2a3e79",
         "second_button_border_hover_color": "#2a3e79",
         "heading_color": "#2f1718",
-        "background_color": "#fffaed",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
