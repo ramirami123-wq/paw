@@ -272,6 +272,7 @@
         "item_KWPwtH",
         "item_jEyeCX"
       ],
+      "disabled": true,
       "name": "SS - Comparison Table #4",
       "settings": {
         "heading": "<h2>US VS OTHER BRANDS</h2>",
@@ -388,6 +389,19 @@
         "lazy": false
       }
     },
+    "custom_html_CjmUKH": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>PawFlow — Pet Water Bottle</title>\n<link href=\"https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&amp;family=DM+Sans:wght@300;400;500&amp;display=swap\" rel=\"stylesheet\">\n<style>\n  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }\n\n  :root {\n    --clay: #C4896A;\n    --deep: #3B2A1E;\n  }\n\n  body {\n    font-family: 'DM Sans', sans-serif;\n    background: #fff;\n    color: var(--deep);\n  }\n\n  .section-label {\n    font-size: 11px;\n    font-weight: 500;\n    letter-spacing: 3px;\n    text-transform: uppercase;\n    color: var(--clay);\n    margin-bottom: 12px;\n  }\n\n  .section-title {\n    font-family: 'Playfair Display', serif;\n    font-size: clamp(26px, 4vw, 38px);\n    font-weight: 700;\n    color: var(--deep);\n    margin-bottom: 40px;\n    line-height: 1.2;\n  }\n\n  /* FEATURES */\n  .features { background: #fff; padding: 72px 40px; border-bottom: 1px solid #F0EBE6; }\n  .features-inner { max-width: 900px; margin: 0 auto; }\n\n  .features-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n    gap: 24px;\n  }\n\n  .feat-card {\n    background: #fff;\n    border: 1px solid #EDE8E3;\n    border-radius: 16px;\n    padding: 28px 24px;\n    position: relative;\n    overflow: hidden;\n    transition: transform 0.25s ease, box-shadow 0.25s ease;\n    cursor: default;\n  }\n\n  .feat-card:hover {\n    transform: translateY(-4px);\n    box-shadow: 0 16px 40px rgba(59,42,30,0.08);\n  }\n\n  .feat-card::after {\n    content: '';\n    position: absolute;\n    bottom: 0; left: 0; right: 0;\n    height: 3px;\n    background: var(--clay);\n    transform: scaleX(0);\n    transform-origin: left;\n    transition: transform 0.3s ease;\n  }\n\n  .feat-card:hover::after { transform: scaleX(1); }\n\n  .feat-icon {\n    width: 48px; height: 48px;\n    border-radius: 12px;\n    display: flex; align-items: center; justify-content: center;\n    margin-bottom: 18px;\n    font-size: 22px;\n  }\n\n  .icon-a { background: rgba(74,155,181,0.12); }\n  .icon-b { background: rgba(196,137,106,0.15); }\n  .icon-c { background: rgba(90,140,90,0.12); }\n  .icon-d { background: rgba(100,100,180,0.1); }\n\n  .feat-card h3 {\n    font-family: 'Playfair Display', serif;\n    font-size: 17px; font-weight: 700;\n    color: var(--deep); margin-bottom: 8px;\n  }\n\n  .feat-card p {\n    font-size: 13.5px; color: #9A8070;\n    line-height: 1.65; font-weight: 300;\n  }\n\n  /* HOW IT WORKS */\n  .how { background: #fff; padding: 72px 40px; }\n  .how-inner { max-width: 900px; margin: 0 auto; }\n\n  .steps {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));\n    margin-top: 44px;\n    position: relative;\n  }\n\n  .steps::before {\n    content: '';\n    position: absolute;\n    top: 30px; left: 60px; right: 60px; height: 1px;\n    background: repeating-linear-gradient(90deg, #D9CFC8 0, #D9CFC8 6px, transparent 6px, transparent 14px);\n    z-index: 0;\n  }\n\n  .step {\n    text-align: center; padding: 0 16px;\n    position: relative; z-index: 1;\n    opacity: 0; transform: translateY(20px);\n    animation: fadeUp 0.5s ease forwards;\n  }\n\n  .step:nth-child(1) { animation-delay: 0.1s; }\n  .step:nth-child(2) { animation-delay: 0.25s; }\n  .step:nth-child(3) { animation-delay: 0.4s; }\n  .step:nth-child(4) { animation-delay: 0.55s; }\n\n  @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }\n\n  .step-circle {\n    width: 60px; height: 60px; border-radius: 50%;\n    background: var(--deep); color: #fff;\n    font-family: 'Playfair Display', serif;\n    font-size: 22px; font-weight: 700;\n    display: flex; align-items: center; justify-content: center;\n    margin: 0 auto 20px;\n  }\n\n  .step h4 { font-size: 14px; font-weight: 500; color: var(--deep); margin-bottom: 6px; }\n  .step p  { font-size: 12.5px; color: #9A8070; line-height: 1.6; font-weight: 300; }\n</style>\n\n\n\n<section class=\"features\">\n  <div class=\"features-inner\">\n    <p class=\"section-label\">Why it works</p>\n    <h2 class=\"section-title\">Hydration made<br>effortless.</h2>\n    <div class=\"features-grid\">\n      <div class=\"feat-card\">\n        <div class=\"feat-icon icon-a\">💧</div>\n        <h3>Flip-Out Drinking Tray</h3>\n        <p>The built-in tray folds out in seconds — your dog drinks straight from it, no bowl needed.</p>\n      </div>\n      <div class=\"feat-card\">\n        <div class=\"feat-icon icon-b\">🤏</div>\n        <h3>One-Squeeze Pour</h3>\n        <p>Gently squeeze the bottle to fill the tray. Release to draw unused water back in — zero waste.</p>\n      </div>\n      <div class=\"feat-card\">\n        <div class=\"feat-icon icon-c\">🔒</div>\n        <h3>Leak-Proof Seal</h3>\n        <p>Airtight cap keeps water inside your bag, not all over it. Safe to toss in any pocket.</p>\n      </div>\n      <div class=\"feat-card\">\n        <div class=\"feat-icon icon-d\">🪝</div>\n        <h3>Carabiner Clip</h3>\n        <p>Clips to any bag, belt loop, or stroller. Hands-free carry so you can focus on the walk.</p>\n      </div>\n    </div>\n  </div>\n</section>\n\n<section class=\"how\">\n  <div class=\"how-inner\">\n    <p class=\"section-label\">Dead simple</p>\n    <h2 class=\"section-title\">How it works</h2>\n    <div class=\"steps\">\n      <div class=\"step\">\n        <div class=\"step-circle\">1</div>\n        <h4>Fill it up</h4>\n        <p>Unscrew the cap and fill with fresh water before you head out.</p>\n      </div>\n      <div class=\"step\">\n        <div class=\"step-circle\">2</div>\n        <h4>Clip &amp; carry</h4>\n        <p>Hook the carabiner to your bag and go — it's fully sealed until you need it.</p>\n      </div>\n      <div class=\"step\">\n        <div class=\"step-circle\">3</div>\n        <h4>Flip the tray</h4>\n        <p>Open the drinking tray with one hand whenever your dog needs a drink.</p>\n      </div>\n      <div class=\"step\">\n        <div class=\"step-circle\">4</div>\n        <h4>Squeeze &amp; serve</h4>\n        <p>Gently squeeze to fill the tray. Leftover water flows back in when you let go.</p>\n      </div>\n    </div>\n  </div>\n</section>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "faq_cbkQ3V": {
       "type": "faq",
       "blocks": {
@@ -467,6 +481,7 @@
     "image_with_text_8YkwVd",
     "image_with_text_XrnFrQ",
     "com_6hdjLn",
+    "custom_html_CjmUKH",
     "faq_cbkQ3V",
     "1772123363ce666331"
   ]
