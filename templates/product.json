@@ -128,10 +128,10 @@
           "type": "ai_gen_block_adef03d",
           "name": "Free delivery on orders",
           "settings": {
-            "text_1": "Delivery all over lebanon",
-            "text_2": "Delivery all over lebanon",
-            "text_3": "Delivery all over lebanon",
-            "text_4": "Delivery all over lebanon",
+            "text_1": "Hydration and treats, all in one bottle",
+            "text_2": "Hydration and treats, all in one bottle",
+            "text_3": "Hydration and treats, all in one bottle",
+            "text_4": "Hydration and treats, all in one bottle",
             "show_icon": false,
             "icon_type": "star",
             "icon_size": 20,
@@ -140,13 +140,13 @@
             "text_size": 16,
             "text_weight": "500",
             "text_transform": "none",
-            "text_color": "#000000",
+            "text_color": "#ffffff",
             "speed": 5,
             "pause_on_hover": true,
             "item_spacing": 60,
             "padding_vertical": 10,
             "desktop_width_percent": 100,
-            "background_color": "#f7f7f7"
+            "background_color": "#bc1823"
           },
           "blocks": {}
         }
@@ -222,6 +222,74 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "image_with_text_TNtEiN": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_BC4pNW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1778007986_Pet-Water-Bottle-Green.webp",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "🐾 Perfect for Every Adventure",
+            "content": "<p>Keep your pet hydrated and happy wherever you go with this 2-in-1 portable water bottle. Designed for convenience, it stores both water and treats in one compact, travel-friendly design.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_BC4pNW"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "blocks_BVLBXT": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_adef03d_K3LUxR": {
+          "type": "ai_gen_block_adef03d",
+          "name": "Free delivery on orders",
+          "settings": {
+            "text_1": "Adventure-ready for every walk with your pet",
+            "text_2": "Adventure-ready for every walk with your pet",
+            "text_3": "Adventure-ready for every walk with your pet",
+            "text_4": "Adventure-ready for every walk with your pet",
+            "show_icon": false,
+            "icon_type": "star",
+            "icon_size": 20,
+            "icon_color": "#0c1b54",
+            "icon_text_spacing": 8,
+            "text_size": 16,
+            "text_weight": "500",
+            "text_transform": "none",
+            "text_color": "#ffffff",
+            "speed": 5,
+            "pause_on_hover": true,
+            "item_spacing": 60,
+            "padding_vertical": 10,
+            "desktop_width_percent": 100,
+            "background_color": "#bc1823"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_adef03d_K3LUxR"
+      ],
+      "settings": {}
+    },
     "com_6hdjLn": {
       "type": "com",
       "blocks": {
@@ -272,7 +340,6 @@
         "item_KWPwtH",
         "item_jEyeCX"
       ],
-      "disabled": true,
       "name": "SS - Comparison Table #4",
       "settings": {
         "heading": "<h2>US VS OTHER BRANDS</h2>",
@@ -478,7 +545,7 @@
         "judge_me_reviews_review_widget_hTtdiL": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "review_data": "sample_data",
+            "review_data": "real_data",
             "max_width": 1200,
             "show_shop_reviews": false,
             "empty_state": "empty_widget"
@@ -495,20 +562,6 @@
     },
     "177843273083b88160": {
       "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_3PgdMH": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "review_data": "sample_data",
-            "max_width": 1200,
-            "show_shop_reviews": false,
-            "empty_state": "empty_widget"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_3PgdMH"
-      ],
       "settings": {
         "include_horizontal_margins": true,
         "include_vertical_margins": true
@@ -522,6 +575,8 @@
     "1772112756b71eda01",
     "image_with_text_8YkwVd",
     "image_with_text_XrnFrQ",
+    "image_with_text_TNtEiN",
+    "blocks_BVLBXT",
     "com_6hdjLn",
     "custom_html_CjmUKH",
     "faq_cbkQ3V",
