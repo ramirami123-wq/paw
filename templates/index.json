@@ -9,6 +9,29 @@
  */
 {
   "sections": {
+    "image_with_text_overlay_7LnHfi": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify://shop_images/1778007986_Pet-Water-Bottle-Green.webp",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "featured_collections_jJbYEx": {
       "type": "featured-collections",
       "blocks": {
@@ -106,6 +129,7 @@
     }
   },
   "order": [
+    "image_with_text_overlay_7LnHfi",
     "featured_collections_jJbYEx",
     "slideshow",
     "17721123692ddca8e9",
