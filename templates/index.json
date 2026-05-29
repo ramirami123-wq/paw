@@ -120,6 +120,98 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "faq_hwPymT": {
+      "type": "faq",
+      "blocks": {
+        "category_Hxz6Bx": {
+          "type": "category",
+          "disabled": true,
+          "settings": {
+            "title": "Shipping"
+          }
+        },
+        "question_J7BbCD": {
+          "type": "question",
+          "settings": {
+            "title": "What are your store hours?",
+            "answer": "<p>Our online store is open <strong>24/7</strong>.</p><p></p>"
+          }
+        },
+        "question_6nTWwG": {
+          "type": "question",
+          "settings": {
+            "title": "Do you offer online ordering?",
+            "answer": "<p>Yes, we offer online ordering with delivery all over Lebanon.</p><p></p>"
+          }
+        },
+        "category_ehhkXh": {
+          "type": "category",
+          "disabled": true,
+          "settings": {
+            "title": "Other"
+          }
+        },
+        "question_C3iFwd": {
+          "type": "question",
+          "settings": {
+            "title": "What payment methods do you accept?",
+            "answer": "<p>We accept <strong>Whish</strong> and <strong>Cash on Delivery</strong>.</p><p></p>"
+          }
+        },
+        "question_fyJFNL": {
+          "type": "question",
+          "settings": {
+            "title": "What is your return policy for defective products?",
+            "answer": "<p>We accept returns for defective products reported within <strong>24 hours of delivery</strong>. Once verified, customers are eligible for a replacement or full refund.</p><p></p>"
+          }
+        },
+        "question_AH4bUr": {
+          "type": "question",
+          "settings": {
+            "title": "How long does delivery take?",
+            "answer": "<p>Delivery usually takes 5 to 6 days.</p>"
+          }
+        },
+        "question_pXHcM4": {
+          "type": "question",
+          "settings": {
+            "title": "How can I stay updated on promotions and discounts?",
+            "answer": "<p>You can follow our Instagram and TikTok stories, and loyal clients may also receive updates through WhatsApp messages.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_Hxz6Bx",
+        "question_J7BbCD",
+        "question_6nTWwG",
+        "category_ehhkXh",
+        "question_C3iFwd",
+        "question_fyJFNL",
+        "question_AH4bUr",
+        "question_pXHcM4"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_Ez8QPf": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div style=\"padding: 20px; background: #FFF5F2; border-radius: 14px; border-left: 4px solid #C9A89A; font-family: Arial, sans-serif; line-height: 1.7; color: #3B2A1E;\">\n  <h3 style=\"margin-bottom: 12px;\">Delivery Information</h3>\n\n  <p><strong>📦 Delivery:</strong> Fast local delivery available.</p>\n\n  <p><strong>💵 Payment Method:</strong> Cash on Delivery.</p>\n\n  <p><strong>📱 Whish Payment:</strong> Available on this number: <strong>+961 78 726 119</strong></p>\n\n  <p><strong>🔍 Order Tracking:</strong> You can track your item after placing your order. Our team will contact you with delivery updates.</p>\n</div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "shop-the-look": {
       "type": "shop-the-look",
       "settings": {
@@ -134,6 +226,8 @@
     "slideshow",
     "17721123692ddca8e9",
     "rich_text_8iDkdx",
+    "faq_hwPymT",
+    "custom_liquid_Ez8QPf",
     "shop-the-look"
   ]
 }
