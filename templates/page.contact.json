@@ -30,10 +30,24 @@
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
+    },
+    "custom_liquid_M4JhAF": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div style=\"padding: 22px; background: #FFF5F2; border-radius: 14px; border-left: 4px solid #C9A89A; font-family: Arial, sans-serif; color: #3B2A1E; line-height: 1.8;\">\n  <h3 style=\"margin-bottom: 14px;\">Contact Us</h3>\n\n  <p><strong>📞 Phone / WhatsApp:</strong><br>\n    <a href=\"https://wa.me/96178726119\" style=\"color: #3B2A1E; text-decoration: none;\">+961 78 726 119</a>\n  </p>\n\n  <p><strong>📧 Email:</strong><br>\n    <a href=\"mailto:onlinebooking99@yahoo.com\" style=\"color: #3B2A1E; text-decoration: none;\">onlinebooking99@yahoo.com</a>\n  </p>\n\n  <p>\n    <a href=\"https://www.instagram.com/pawtique_lb?igsh=MTdkNHZmbWUxcTFsNw==\" target=\"_blank\" style=\"display:inline-block; margin-right:10px; padding:10px 14px; background:#FFF; border:1px solid #EDE8E3; border-radius:10px; color:#3B2A1E; text-decoration:none;\">\n      📸 Instagram\n    </a>\n\n    <a href=\"https://www.tiktok.com/@paw.tique?_r=1&_t=ZS-96WXwTaljXx\" target=\"_blank\" style=\"display:inline-block; padding:10px 14px; background:#FFF; border:1px solid #EDE8E3; border-radius:10px; color:#3B2A1E; text-decoration:none;\">\n      🎵 TikTok\n    </a>\n  </p>\n</div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "main",
-    "contact-form"
+    "contact-form",
+    "custom_liquid_M4JhAF"
   ]
 }
