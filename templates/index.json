@@ -9,6 +9,37 @@
  */
 {
   "sections": {
+    "featured_collections_jJbYEx": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_HWawwN": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_HWawwN"
+      ],
+      "name": "Featured collections",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -75,6 +106,7 @@
     }
   },
   "order": [
+    "featured_collections_jJbYEx",
     "slideshow",
     "17721123692ddca8e9",
     "rich_text_8iDkdx",
