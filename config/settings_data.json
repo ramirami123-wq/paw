@@ -45,7 +45,7 @@
     "show_vendor": false,
     "show_secondary_image": true,
     "product_add_to_cart": false,
-    "show_product_rating": true,
+    "show_product_rating": false,
     "product_color_display": "hide",
     "product_image_size": "square",
     "cart_type": "drawer",
