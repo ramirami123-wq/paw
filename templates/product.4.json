@@ -228,11 +228,11 @@
         "item_BC4pNW": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/1778007986_Pet-Water-Bottle-Green.webp",
+            "image": "shopify://shop_images/1776768674_phpr3tks62odhq382rpyOa.jpg",
             "tab_label": "Item",
             "subheading": "",
-            "title": "🐾 Perfect for Every Adventure",
-            "content": "<p>Keep your pet hydrated and happy wherever you go with this 2-in-1 portable water bottle. Designed for convenience, it stores both water and treats in one compact, travel-friendly design.</p>",
+            "title": "Hydration Anywhere, Anytime",
+            "content": "<p><br/>Keep your furry friend refreshed on every adventure with a portable, leak-proof water dispenser designed for easy walks, travel, and outdoor moments.<br/><br/></p>",
             "button_text": "",
             "button_link": ""
           }
@@ -296,7 +296,7 @@
         "item_77LR69": {
           "type": "item",
           "settings": {
-            "row_heading": "2-in-1 design (water + treats)",
+            "row_heading": "Leak-Proof Design",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -306,7 +306,7 @@
         "item_dEPCJH": {
           "type": "item",
           "settings": {
-            "row_heading": "Leak-proof & spill-free",
+            "row_heading": "One-Hand Operation",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -316,7 +316,7 @@
         "item_KWPwtH": {
           "type": "item",
           "settings": {
-            "row_heading": "Pet-safe BPA-free materials",
+            "row_heading": "Perfect For Travel & Walks",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -326,7 +326,7 @@
         "item_jEyeCX": {
           "type": "item",
           "settings": {
-            "row_heading": "One-handed use, easy to clean",
+            "row_heading": "Easy Pet Hydration Anywhere",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -462,7 +462,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>PawFlow — Pet Water Bottle</title>\n<link href=\"https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&amp;family=DM+Sans:wght@300;400;500&amp;display=swap\" rel=\"stylesheet\">\n<style>\n  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }\n\n  :root {\n    --clay: #C4896A;\n    --deep: #3B2A1E;\n  }\n\n  body {\n    font-family: 'DM Sans', sans-serif;\n    background: #fff;\n    color: var(--deep);\n  }\n\n  .section-label {\n    font-size: 11px;\n    font-weight: 500;\n    letter-spacing: 3px;\n    text-transform: uppercase;\n    color: var(--clay);\n    margin-bottom: 12px;\n  }\n\n  .section-title {\n    font-family: 'Playfair Display', serif;\n    font-size: clamp(26px, 4vw, 38px);\n    font-weight: 700;\n    color: var(--deep);\n    margin-bottom: 40px;\n    line-height: 1.2;\n  }\n\n  /* FEATURES */\n  .features { background: #fff; padding: 72px 40px; border-bottom: 1px solid #F0EBE6; }\n  .features-inner { max-width: 900px; margin: 0 auto; }\n\n  .features-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n    gap: 24px;\n  }\n\n  .feat-card {\n    background: #fff;\n    border: 1px solid #EDE8E3;\n    border-radius: 16px;\n    padding: 28px 24px;\n    position: relative;\n    overflow: hidden;\n    transition: transform 0.25s ease, box-shadow 0.25s ease;\n    cursor: default;\n  }\n\n  .feat-card:hover {\n    transform: translateY(-4px);\n    box-shadow: 0 16px 40px rgba(59,42,30,0.08);\n  }\n\n  .feat-card::after {\n    content: '';\n    position: absolute;\n    bottom: 0; left: 0; right: 0;\n    height: 3px;\n    background: var(--clay);\n    transform: scaleX(0);\n    transform-origin: left;\n    transition: transform 0.3s ease;\n  }\n\n  .feat-card:hover::after { transform: scaleX(1); }\n\n  .feat-icon {\n    width: 48px; height: 48px;\n    border-radius: 12px;\n    display: flex; align-items: center; justify-content: center;\n    margin-bottom: 18px;\n    font-size: 22px;\n  }\n\n  .icon-a { background: rgba(74,155,181,0.12); }\n  .icon-b { background: rgba(196,137,106,0.15); }\n  .icon-c { background: rgba(90,140,90,0.12); }\n  .icon-d { background: rgba(100,100,180,0.1); }\n\n  .feat-card h3 {\n    font-family: 'Playfair Display', serif;\n    font-size: 17px; font-weight: 700;\n    color: var(--deep); margin-bottom: 8px;\n  }\n\n  .feat-card p {\n    font-size: 13.5px; color: #9A8070;\n    line-height: 1.65; font-weight: 300;\n  }\n\n  /* HOW IT WORKS */\n  .how { background: #fff; padding: 72px 40px; }\n  .how-inner { max-width: 900px; margin: 0 auto; }\n\n  .steps {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));\n    margin-top: 44px;\n    position: relative;\n  }\n\n  .steps::before {\n    content: '';\n    position: absolute;\n    top: 30px; left: 60px; right: 60px; height: 1px;\n    background: repeating-linear-gradient(90deg, #D9CFC8 0, #D9CFC8 6px, transparent 6px, transparent 14px);\n    z-index: 0;\n  }\n\n  .step {\n    text-align: center; padding: 0 16px;\n    position: relative; z-index: 1;\n    opacity: 0; transform: translateY(20px);\n    animation: fadeUp 0.5s ease forwards;\n  }\n\n  .step:nth-child(1) { animation-delay: 0.1s; }\n  .step:nth-child(2) { animation-delay: 0.25s; }\n  .step:nth-child(3) { animation-delay: 0.4s; }\n  .step:nth-child(4) { animation-delay: 0.55s; }\n\n  @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }\n\n  .step-circle {\n    width: 60px; height: 60px; border-radius: 50%;\n    background: var(--deep); color: #fff;\n    font-family: 'Playfair Display', serif;\n    font-size: 22px; font-weight: 700;\n    display: flex; align-items: center; justify-content: center;\n    margin: 0 auto 20px;\n  }\n\n  .step h4 { font-size: 14px; font-weight: 500; color: var(--deep); margin-bottom: 6px; }\n  .step p  { font-size: 12.5px; color: #9A8070; line-height: 1.6; font-weight: 300; }\n</style>\n\n\n\n<section class=\"features\">\n  <div class=\"features-inner\">\n    <p class=\"section-label\">Why it works</p>\n    <h2 class=\"section-title\">Hydration made<br>effortless.</h2>\n    <div class=\"features-grid\">\n      <div class=\"feat-card\">\n        <div class=\"feat-icon icon-a\">💧</div>\n        <h3>Flip-Out Drinking Tray</h3>\n        <p>The built-in tray folds out in seconds — your dog drinks straight from it, no bowl needed.</p>\n      </div>\n      <div class=\"feat-card\">\n        <div class=\"feat-icon icon-b\">🤏</div>\n        <h3>One-Squeeze Pour</h3>\n        <p>Gently squeeze the bottle to fill the tray. Release to draw unused water back in — zero waste.</p>\n      </div>\n      <div class=\"feat-card\">\n        <div class=\"feat-icon icon-c\">🔒</div>\n        <h3>Leak-Proof Seal</h3>\n        <p>Airtight cap keeps water inside your bag, not all over it. Safe to toss in any pocket.</p>\n      </div>\n      <div class=\"feat-card\">\n        <div class=\"feat-icon icon-d\">🪝</div>\n        <h3>Carabiner Clip</h3>\n        <p>Clips to any bag, belt loop, or stroller. Hands-free carry so you can focus on the walk.</p>\n      </div>\n    </div>\n  </div>\n</section>\n\n<section class=\"how\">\n  <div class=\"how-inner\">\n    <p class=\"section-label\">Dead simple</p>\n    <h2 class=\"section-title\">How it works</h2>\n    <div class=\"steps\">\n      <div class=\"step\">\n        <div class=\"step-circle\">1</div>\n        <h4>Fill it up</h4>\n        <p>Unscrew the cap and fill with fresh water before you head out.</p>\n      </div>\n      <div class=\"step\">\n        <div class=\"step-circle\">2</div>\n        <h4>Clip &amp; carry</h4>\n        <p>Hook the carabiner to your bag and go — it's fully sealed until you need it.</p>\n      </div>\n      <div class=\"step\">\n        <div class=\"step-circle\">3</div>\n        <h4>Flip the tray</h4>\n        <p>Open the drinking tray with one hand whenever your dog needs a drink.</p>\n      </div>\n      <div class=\"step\">\n        <div class=\"step-circle\">4</div>\n        <h4>Squeeze &amp; serve</h4>\n        <p>Gently squeeze to fill the tray. Leftover water flows back in when you let go.</p>\n      </div>\n    </div>\n  </div>\n</section>",
+        "html": "<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n<style>\n  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }\n\n  :root {\n    --clay: #C4896A;\n    --deep: #3B2A1E;\n  }\n\n  .features, .how {\n    font-family: Arial, sans-serif;\n    color: var(--deep);\n  }\n\n  .section-label {\n    font-size: 11px;\n    font-weight: 600;\n    letter-spacing: 3px;\n    text-transform: uppercase;\n    color: var(--clay);\n    margin-bottom: 12px;\n  }\n\n  .section-title {\n    font-size: clamp(26px, 4vw, 38px);\n    font-weight: 700;\n    color: var(--deep);\n    margin-bottom: 40px;\n    line-height: 1.2;\n  }\n\n  .features { background: #fff; padding: 60px 20px; border-bottom: 1px solid #F0EBE6; }\n  .features-inner, .how-inner { max-width: 900px; margin: 0 auto; }\n\n  .features-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n    gap: 22px;\n  }\n\n  .feat-card {\n    background: #fff;\n    border: 1px solid #EDE8E3;\n    border-radius: 16px;\n    padding: 26px 22px;\n    transition: 0.25s ease;\n  }\n\n  .feat-card:hover {\n    transform: translateY(-4px);\n    box-shadow: 0 16px 35px rgba(59,42,30,0.08);\n  }\n\n  .feat-icon {\n    width: 48px;\n    height: 48px;\n    border-radius: 12px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin-bottom: 18px;\n    font-size: 22px;\n    background: rgba(196,137,106,0.15);\n  }\n\n  .feat-card h3 {\n    font-size: 17px;\n    font-weight: 700;\n    color: var(--deep);\n    margin-bottom: 8px;\n  }\n\n  .feat-card p {\n    font-size: 13.5px;\n    color: #9A8070;\n    line-height: 1.65;\n  }\n\n  .how { background: #fff; padding: 60px 20px; }\n\n  .steps {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));\n    gap: 28px;\n    margin-top: 35px;\n  }\n\n  .step {\n    text-align: center;\n    padding: 0 12px;\n  }\n\n  .step-circle {\n    width: 58px;\n    height: 58px;\n    border-radius: 50%;\n    background: var(--deep);\n    color: #fff;\n    font-size: 22px;\n    font-weight: 700;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin: 0 auto 18px;\n  }\n\n  .step h4 {\n    font-size: 14px;\n    font-weight: 700;\n    color: var(--deep);\n    margin-bottom: 6px;\n  }\n\n  .step p {\n    font-size: 12.5px;\n    color: #9A8070;\n    line-height: 1.6;\n  }\n</style>\n\n<section class=\"features\">\n  <div class=\"features-inner\">\n    <p class=\"section-label\">Why pet owners love it</p>\n    <h2 class=\"section-title\">Fresh water<br>wherever you go.</h2>\n\n    <div class=\"features-grid\">\n      <div class=\"feat-card\">\n        <div class=\"feat-icon\">💧</div>\n        <h3>Leak-Proof Design</h3>\n        <p>Keeps water safely inside the bottle, making it perfect for bags, walks, and travel.</p>\n      </div>\n\n      <div class=\"feat-card\">\n        <div class=\"feat-icon\">🤏</div>\n        <h3>One-Hand Operation</h3>\n        <p>Give your pet fresh water quickly and easily without needing an extra bowl.</p>\n      </div>\n\n      <div class=\"feat-card\">\n        <div class=\"feat-icon\">🐶</div>\n        <h3>Perfect For Dogs &amp; Cats</h3>\n        <p>Designed for outdoor walks, park days, road trips, and everyday pet care.</p>\n      </div>\n\n      <div class=\"feat-card\">\n        <div class=\"feat-icon\">🎒</div>\n        <h3>Portable &amp; Lightweight</h3>\n        <p>Easy to carry by hand or place in your bag so your pet stays hydrated anywhere.</p>\n      </div>\n    </div>\n  </div>\n</section>\n\n<section class=\"how\">\n  <div class=\"how-inner\">\n    <p class=\"section-label\">Easy to use</p>\n    <h2 class=\"section-title\">How it works</h2>\n\n    <div class=\"steps\">\n      <div class=\"step\">\n        <div class=\"step-circle\">1</div>\n        <h4>Fill With Water</h4>\n        <p>Add clean water before leaving home.</p>\n      </div>\n\n      <div class=\"step\">\n        <div class=\"step-circle\">2</div>\n        <h4>Take It Anywhere</h4>\n        <p>Carry it on walks, trips, hikes, or daily outings.</p>\n      </div>\n\n      <div class=\"step\">\n        <div class=\"step-circle\">3</div>\n        <h4>Open The Tray</h4>\n        <p>Use the built-in drinking tray when your pet needs water.</p>\n      </div>\n\n      <div class=\"step\">\n        <div class=\"step-circle\">4</div>\n        <h4>Serve Fresh Water</h4>\n        <p>Let your pet drink comfortably anytime, anywhere.</p>\n      </div>\n    </div>\n  </div>\n</section>",
         "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
@@ -482,36 +482,29 @@
         "question_adqrYK": {
           "type": "question",
           "settings": {
-            "title": "Is the bottle leak-proof?",
-            "answer": "<p>Yes! The bottle is fully sealed when closed, so you can toss it in your bag, backpack, or car without worrying about spills. Both the water and treat compartments are leak-resistant by design.</p>"
+            "title": "Is the Luxacare™ Pet Water Bottle leak-proof?",
+            "answer": "<p>Yes! It is designed with a secure seal to help prevent leaks, making it safe to carry in your bag during walks and trips.</p><p></p>"
           }
         },
         "question_TDP7NK": {
           "type": "question",
           "settings": {
-            "title": "Is it safe for my pet?",
-            "answer": "<p>Absolutely. The bottle is made from BPA-free, food-grade, pet-safe materials — gentle on your furry friend and built to last. It's just like the materials used in human water bottles, so totally safe for daily use.</p>"
+            "title": "How do I use the water dispenser?",
+            "answer": "<p><br/>Simply fill the bottle with fresh water, open the drinking tray, and serve water to your pet anytime, anywhere.<br/><br/></p>"
           }
         },
         "question_hPGXCN": {
           "type": "question",
           "settings": {
-            "title": "Will it work for both dogs and cats?",
-            "answer": "<p>Yes! The bottle is designed for pets of all sizes — from tiny kittens to large dogs. The built-in folding bowl adjusts so any pet can drink comfortably, and the compact size makes it easy to carry no matter your pet's size.</p>"
+            "title": "Is it suitable for both dogs and cats?",
+            "answer": "<p><br/>Yes! The portable design works great for dogs and cats of different sizes.<br/><br/></p>"
           }
         },
         "question_7Rxwez": {
           "type": "question",
           "settings": {
-            "title": "How do I clean it?",
-            "answer": "<p>Super easy! Just rinse both compartments with warm water and mild soap, then let them air dry. We recommend cleaning after each long outing to keep everything fresh and hygienic for your pet.</p>"
-          }
-        },
-        "question_Pzgd7t": {
-          "type": "question",
-          "settings": {
-            "title": "How much water does it hold?",
-            "answer": "<p>The water compartment holds approximately 350ml — perfect for medium-length walks, hikes, or daily outings. The separate treat section keeps treats fresh and ready for training or rewards along the way.</p>"
+            "title": "Does it help reduce water waste?",
+            "answer": "<p>Yes. The smart design helps you give your pet only the water they need, making hydration easier and cleaner.</p><p></p>"
           }
         }
       },
@@ -520,8 +513,7 @@
         "question_adqrYK",
         "question_TDP7NK",
         "question_hPGXCN",
-        "question_7Rxwez",
-        "question_Pzgd7t"
+        "question_7Rxwez"
       ],
       "name": "FAQ",
       "settings": {
@@ -530,13 +522,6 @@
         "content": "",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "1772123363ce666331": {
-      "type": "apps",
-      "settings": {
-        "include_horizontal_margins": true,
-        "include_vertical_margins": true
       }
     },
     "17784327267cde547e": {
@@ -580,7 +565,6 @@
     "com_6hdjLn",
     "custom_html_CjmUKH",
     "faq_cbkQ3V",
-    "1772123363ce666331",
     "17784327267cde547e",
     "177843273083b88160"
   ]
